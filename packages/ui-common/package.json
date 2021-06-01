@@ -1,6 +1,6 @@
 {
   "name": "ui-common",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "webpack core config",
   "main": "dist/MyClass.js",
   "scripts": {

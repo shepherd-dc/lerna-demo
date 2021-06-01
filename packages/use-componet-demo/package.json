@@ -1,6 +1,6 @@
 {
   "name": "use-component-demo",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,7 +9,7 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "map-lib-test": "^0.6.0",
-    "ui-common": "^1.0.2",
+    "ui-common": "^1.0.3",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3"
   },
