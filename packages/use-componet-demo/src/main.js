@@ -3,8 +3,14 @@ import App from './App.vue';
 import router from './router';
 Vue.config.productionTip = false;
 
-// import "map-lib-test/lib/style/index.css";
-import { testA, testB } from 'map-lib-test';
+// import "ui-component/lib/style/index.css"
+// import UIComponent from 'ui-component'
+// Vue.use(UIComponent)
+
+import { 
+  testA,
+  testB
+} from 'ui-component';
 Vue.use(testA);
 Vue.use(testB);
 

@@ -1,16 +1,14 @@
 <template>
-    <div class="test">测试按需引入A</div>
+  <div class="test">testA组件</div>
 </template>
 <script>
 export default {
-    name:'testA',
-    data(){
-        return {
-
-        }
-    }
+  name: 'testA',
+  data() {
+    return {}
+  },
 }
 </script>
 <style lang="less" scoped>
-@import "./css/index.less";
+@import './css/index.less';
 </style>

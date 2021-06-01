@@ -10,6 +10,7 @@
     "core-js": "^2.6.5",
     "map-lib-test": "^0.6.0",
     "ui-common": "^1.0.3",
+    "ui-component": "^1.0.2",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3"
   },

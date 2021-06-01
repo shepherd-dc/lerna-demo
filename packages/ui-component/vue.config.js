@@ -53,7 +53,7 @@ const devConfig = {
     devServer: {
         port: 8091,
         hot: true,
-        open: 'Google Chrome'
+        // open: 'Google Chrome'
     }
 }
 //生成环境配置

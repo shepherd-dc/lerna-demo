@@ -9,7 +9,8 @@
     "dev": "lerna exec --scope ui-component -- npm run dev",
     "dev:util": "lerna exec --scope ui-common -- npm run dev",
     "build": "lerna exec --scope ui-component -- npm run build",
-    "build:util": "lerna exec --scope ui-common -- npm run build"
+    "build:util": "lerna exec --scope ui-common -- npm run build",
+    "build:demo": "lerna exec --scope use-component-demo -- npm run build"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
