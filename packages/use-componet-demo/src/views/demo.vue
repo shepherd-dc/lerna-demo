@@ -1,12 +1,16 @@
 <template>
   <div class="demo">
     <div class="block">
-      <div class="title">使用组件库组件</div>
-      <testA></testA>
-      <testB></testB>
+      <div class="title">
+        使用组件库组件
+      </div>
+      <testA />
+      <testB />
     </div>
     <div class="block">
-      <div class="title">使用工具函数库</div>
+      <div class="title">
+        使用工具函数库
+      </div>
       <span class="data">数据返回结果：{{ name }}</span>
     </div>
   </div>
@@ -14,20 +18,20 @@
 <script>
 import MyClass from 'ui-common'
 export default {
-  data() {
+  data () {
     return {
-      name: '',
+      name: ''
     }
   },
-  mounted() {
+  mounted () {
     this.init()
   },
   methods: {
-    init() {
+    init () {
       const myClass = new MyClass('Well', 'Done')
       this.name = myClass.name()
-    },
-  },
+    }
+  }
 }
 </script>
 

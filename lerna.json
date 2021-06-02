@@ -3,6 +3,15 @@
     "packages/*"
   ],
   "version": "independent",
-  "npmClient": "yarn", 
-  "useWorkspaces": true 
+  "command": {
+    "bootstrap": {
+      "hoist": true
+    },
+    "version": {
+      "conventionalCommits": true
+    }
+  },
+  "ignoreChanges": [
+    "**/*.md"
+  ]
 }

@@ -1,12 +1,14 @@
 <template>
-  <div class="test">testB组件</div>
+  <div class="test">
+    testB组件
+  </div>
 </template>
 <script>
 export default {
-  name: 'testB',
-  data() {
+  name: 'TestB',
+  data () {
     return {}
-  },
+  }
 }
 </script>
 <style lang="less" scoped>

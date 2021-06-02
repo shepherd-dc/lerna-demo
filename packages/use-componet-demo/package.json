@@ -16,8 +16,10 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "^3.9.0",
     "babel-plugin-import": "^1.12.2",
+    "eslint-plugin-html": "^6.1.2",
     "less": "^2.7.3",
     "less-loader": "^4.1.0",
     "vue-template-compiler": "^2.6.10"

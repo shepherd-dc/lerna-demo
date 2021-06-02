@@ -17,10 +17,12 @@
     },
     "devDependencies": {
         "@vue/cli-plugin-babel": "^3.9.0",
+        "@vue/cli-plugin-eslint": "~4.5.0",
         "@vue/cli-service": "^3.9.0",
+        "eslint-plugin-html": "^6.1.2",
         "less": "^3.0.4",
         "less-loader": "^4.1.0",
         "vue-template-compiler": "^2.6.10"
     },
-    "gitHead": "e7df7b85bab5b2caa75580e0bd8092b28859cff2"
+    "gitHead": "23bd0ecbc2d63025de1db4ad3a7a94106fa48394"
 }

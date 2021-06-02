@@ -21,6 +21,7 @@
     "@babel/plugin-proposal-decorators": "^7.8.3",
     "@babel/plugin-transform-runtime": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
     "autoprefixer": "^9.7.4",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.0.6",
@@ -46,5 +47,5 @@
     "webpack-cli": "^3.3.8",
     "webpack-dev-server": "^3.10.3"
   },
-  "gitHead": "e7df7b85bab5b2caa75580e0bd8092b28859cff2"
+  "gitHead": "23bd0ecbc2d63025de1db4ad3a7a94106fa48394"
 }
