@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Webpack</title>
+</head>
+<body>
+  <div id="app">Hello Webpack</div>
+  <script>
+    console.log(MyUtils) // eslint-disable-line
+    const { Decorater, log } = MyUtils // eslint-disable-line
+    const decorater = new Decorater('Shepherd', 'Young') // eslint-disable-line
+    log(decorater.name())
+    // myUtils.name = function () { alert(100) } // readonly重新赋值会报错
+    decorater.bar()
+    decorater.deprecate()
+  </script>
+</body>
+</html>

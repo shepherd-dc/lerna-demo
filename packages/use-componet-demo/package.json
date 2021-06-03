@@ -7,21 +7,20 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "core-js": "^2.6.5",
-    "map-lib-test": "^0.6.0",
-    "ui-common": "^1.0.5",
+    "core-js": "^3.2.1",
+    "ui-util": "^1.0.5",
     "ui-component": "^1.0.4",
-    "vue": "^2.6.10",
+    "vue": "^2.6.11",
     "vue-router": "^3.0.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.9.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-eslint": "^4.5.13",
     "@vue/cli-service": "^3.9.0",
     "babel-plugin-import": "^1.12.2",
     "eslint-plugin-html": "^6.1.2",
-    "less": "^2.7.3",
-    "less-loader": "^4.1.0",
-    "vue-template-compiler": "^2.6.10"
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.11"
   }
 }

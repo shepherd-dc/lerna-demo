@@ -2,7 +2,8 @@
 node_modules
 # examples/
 # packages/
-# public/
+dist/
+lib/
 
 # local env files
 .env.local

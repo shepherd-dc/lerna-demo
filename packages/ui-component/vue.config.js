@@ -12,7 +12,8 @@ function getEntries (path) {
     if (isDir) {
       ret[item] = resolve(join(itemPath, 'index.js'))
     } else {
-      const [name] = item.split('.')
+      let [name] = item.split('.')
+      name === 'index' && (name = 'main')
       ret[name] = resolve(`${itemPath}`)
     }
     return ret
@@ -70,7 +71,7 @@ const buildConfig = {
     },
     output: {
       filename: '[name]/index.js',
-      libraryTarget: 'commonjs2'
+      libraryTarget: 'umd'
     }
   },
   chainWebpack: config => {
@@ -100,7 +101,7 @@ const buildConfig = {
         return option
       })
   },
-  outputDir: 'lib',
+  outputDir: 'dist',
   productionSourceMap: false
 }
 

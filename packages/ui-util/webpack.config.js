@@ -9,14 +9,15 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 module.exports = {
   // context: path.resolve(__dirname, '../'), // 默认当前工作目录 process.cwd()
   entry: {
-    MyClass: path.resolve(__dirname, './src/index.js')
-    // list: path.resolve(__dirname, './src/list.js')
+    main: path.resolve(__dirname, './src/index.js'),
+    Decorater: path.resolve(__dirname, './src/test/decorater.js'),
+    log: path.resolve(__dirname, './src/test/log.js')
   },
   output: {
     path: path.resolve(__dirname, './dist'),
     // publicPath: path.resolve(__dirname, './public'),
-    filename: '[name].js', // '[name]'为 entry中的 key
-    library: '[name]',
+    filename: '[name]/index.js', // '[name]'为 entry中的 key
+    library: 'MyUtils',
     libraryTarget: 'umd',
     libraryExport: 'default' // 打包后全局变量不需要.default才能拿到
   },
@@ -174,6 +175,7 @@ module.exports = {
     new VueLoaderPlugin(),
     new HtmlWebPackPlugin({
       template: path.join(__dirname, './public', 'index.html'), // 模板路径
+      chunks: ['main'], // 多入口时使用，选择文件
       inject: 'head', // 自动注入js位置, 默认true('body')
       favicon: path.join(__dirname, './public', 'favicon.ico') // favicon图标
     }),

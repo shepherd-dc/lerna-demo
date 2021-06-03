@@ -16,7 +16,11 @@
   </div>
 </template>
 <script>
-import MyClass from 'ui-common'
+import {
+  Decorater,
+  log
+} from 'ui-util'
+
 export default {
   data () {
     return {
@@ -28,8 +32,9 @@ export default {
   },
   methods: {
     init () {
-      const myClass = new MyClass('Well', 'Done')
-      this.name = myClass.name()
+      log('MyUtils log', log)
+      const myUtils = new Decorater('Well', 'Done')
+      this.name = myUtils.name()
     }
   }
 }

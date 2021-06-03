@@ -3,12 +3,12 @@
   "private": true,
   "scripts": {
     "serve": "lerna exec --scope use-component-demo -- npm run serve",
-    "build": "lerna exec --scope ui-component -- npm run build",
-    "lint": "vue-cli-service lint",
-    "build:demo": "lerna exec --scope use-component-demo -- npm run build",
-    "build:util": "lerna exec --scope ui-common -- npm run build",
-    "dev": "lerna exec --scope ui-component -- npm run dev",
-    "dev:util": "lerna exec --scope ui-common -- npm run dev"
+    "serve:comp": "lerna exec --scope ui-component -- npm run serve",
+    "serve:util": "lerna exec --scope ui-util -- npm run serve",
+    "build": "lerna exec --scope use-component-demo -- npm run build",
+    "build:comp": "lerna exec --scope ui-component -- npm run build",
+    "build:util": "lerna exec --scope ui-util -- npm run build",
+    "lint": "vue-cli-service lint"
   },
   "devDependencies": {
     "@vue/cli-plugin-eslint": "^4.5.13",
@@ -20,8 +20,5 @@
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^6.2.2",
     "lerna": "^4.0.0"
-  },
-  "workspaces": [
-    "packages/*"
-  ]
+  }
 }

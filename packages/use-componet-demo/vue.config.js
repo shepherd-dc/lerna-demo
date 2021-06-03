@@ -3,5 +3,6 @@ module.exports = {
     port: 8038,
     hot: true
     // open: 'Google Chrome'
-  }
+  },
+  productionSourceMap: false
 }
