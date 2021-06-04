@@ -11,10 +11,11 @@
     "ui-component": "^1.0.5",
     "ui-util": "^1.0.6",
     "vue": "^2.6.11",
-    "vue-router": "^3.0.3"
+    "vue-router": "^3.0.3",
+    "webpack-bundle-analyzer": "^4.4.2"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-babel": "^4.4.0",
     "@vue/cli-plugin-eslint": "^4.5.13",
     "@vue/cli-service": "^3.9.0",
     "babel-plugin-import": "^1.12.2",
