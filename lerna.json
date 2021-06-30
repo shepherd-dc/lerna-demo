@@ -2,13 +2,12 @@
   "packages": [
     "packages/*"
   ],
-  "version": "1.0.1-SNAPSHOT.1",
+  "version": "1.1.0-SNAPSHOT.0",
   "command": {
     "bootstrap": {
       "hoist": true
     },
-    "version": {
-    }
+    "version": {}
   },
   "ignoreChanges": [
     "**/*.md"
