@@ -1,6 +1,6 @@
 <template>
   <div class="test">
-    testB组件
+    testB Component
   </div>
 </template>
 <script>

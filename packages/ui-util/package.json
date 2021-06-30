@@ -5,7 +5,8 @@
   "main": "dist/main/index.js",
   "scripts": {
     "serve": "webpack-dev-server --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "version:log": "lerna version --conventional-commits"
   },
   "author": "",
   "license": "ISC",

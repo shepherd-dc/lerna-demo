@@ -6,6 +6,16 @@
   "command": {
     "bootstrap": {
       "hoist": true
+    },
+    "version": {
+      "changelogPreset": {
+        "name": "conventionalcommits",
+        "types": [
+          {"type": "ft", "section": "Features"},
+          {"type": "fix",  "section": "Bug Fixes"},
+          {"type": "docs", "section": "Docs"}
+        ]
+      }
     }
   },
   "ignoreChanges": [
