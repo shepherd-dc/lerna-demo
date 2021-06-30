@@ -11,5 +11,15 @@
   },
   "ignoreChanges": [
     "**/*.md"
-  ]
+  ],
+  "changelog": {
+    "repo": "shepherd-dc/lerna-demo",
+    "labels": {
+      "enhancement": ":rocket: Enhancement",
+      "bug": ":bug: Bug Fix",
+      "doc": "Refine Doc",
+      "feat": "New Feature"
+    },
+    "cacheDir": ".changelog"
+  }
 }
