@@ -4,7 +4,7 @@
       <div class="title">
         使用组件库组件
       </div>
-      <testA />
+      <!-- <testA /> -->
       <testB />
     </div>
     <div class="block">
@@ -17,7 +17,7 @@
 </template>
 <script>
 import {
-  Decorater,
+  // Decorater,
   log
 } from 'ui-util'
 
@@ -33,8 +33,8 @@ export default {
   methods: {
     init () {
       log('MyUtils log', log)
-      const myUtils = new Decorater('Well', 'Done')
-      this.name = myUtils.name()
+      // const myUtils = new Decorater('Well', 'Done')
+      // this.name = myUtils.name()
     }
   }
 }

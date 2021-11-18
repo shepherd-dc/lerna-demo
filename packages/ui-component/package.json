@@ -1,6 +1,6 @@
 {
   "name": "ui-component",
-  "version": "1.1.0-SNAPSHOT.0",
+  "version": "1.1.0-SNAPSHOT.2",
   "private": false,
   "main": "dist/main/index.js",
   "keyword": "mapLibTest",
@@ -18,7 +18,8 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.4.0",
     "@vue/cli-plugin-eslint": "^4.5.13",
-    "@vue/cli-service": "^3.9.0",
+    "@vue/cli-service": "^4.4.0",
+    "babel-plugin-component": "^1.1.1",
     "eslint-plugin-html": "^6.1.2",
     "less": "^3.11.1",
     "less-loader": "^5.0.0",

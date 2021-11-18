@@ -3,12 +3,12 @@ import App from './App.vue'
 import router from './router'
 
 import {
-  testA,
+  // testA,
   testB
 } from 'ui-component'
 
 Vue.config.productionTip = false
-Vue.use(testA)
+// Vue.use(testA)
 Vue.use(testB)
 
 new Vue({

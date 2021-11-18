@@ -10,7 +10,12 @@
     "build:util": "lerna exec --scope ui-util -- npm run build",
     "lint": "vue-cli-service lint",
     "commit": "git add --all && git-cz",
-    "version": "lerna version --conventional-commits"
+    "clean": "lerna clean",
+    "install-all": "lerna bootstrap --hoist",
+    "build-all": "npm-run-all --parallel build:*",
+    "launch": "npm install && npm run install-all && npm run build-all",
+    "relaunch": "lerna clean && npm run install-all && npm run build-all",
+    "version": "lerna version --no-git-tag-version --no-push --conventional-commits"
   },
   "config": {
     "commitizen": {
@@ -29,6 +34,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^6.2.2",
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "npm-run-all": "^4.1.5"
   }
 }

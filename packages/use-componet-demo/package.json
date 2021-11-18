@@ -1,6 +1,6 @@
 {
   "name": "use-component-demo",
-  "version": "1.0.1-SNAPSHOT.0",
+  "version": "1.1.0-SNAPSHOT.2",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -8,8 +8,8 @@
   },
   "dependencies": {
     "core-js": "^3.2.1",
-    "ui-component": "^1.2.1",
-    "ui-util": "^1.2.2",
+    "ui-component": "^1.1.0-SNAPSHOT.2",
+    "ui-util": "^1.1.0-SNAPSHOT.2",
     "vue": "^2.6.11",
     "vue-router": "^3.0.3",
     "webpack-bundle-analyzer": "^4.4.2"
@@ -17,7 +17,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.4.0",
     "@vue/cli-plugin-eslint": "^4.5.13",
-    "@vue/cli-service": "^3.9.0",
+    "@vue/cli-service": "^4.4.0",
     "babel-plugin-import": "^1.12.2",
     "eslint-plugin-html": "^6.1.2",
     "less": "^3.11.1",
